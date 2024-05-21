@@ -34,3 +34,27 @@ const myFunction = function(){
 console.log(typeof scoreValue)
 console.log(typeof myFunction);
 console.log(typeof heros);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myName = "Washif"
+
+let anotherName = myName
+anotherName = "Suraj"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "washif@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
